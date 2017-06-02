@@ -7,3 +7,8 @@ end
 get '/portfolio' do
   erb :gallery
 end
+
+
+get '/about' do
+  erb :about_me
+end
